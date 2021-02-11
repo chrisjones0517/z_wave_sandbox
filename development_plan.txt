@@ -1,0 +1,34 @@
+Login/logout features
+
+Display local ambient temp somewhere on page (not inside card)
+
+For all controllers discovered by the software, display those controllers in separate cards/divs.
+
+Display "Add Controller" at the end of the list. If list is empty, "Add Controller" should still show.
+
+Connect to controller locally if within WiFi range, else connect through router gateway to public internet.
+
+Set language options? (Possible later option)
+
+Slide out menu from left side:
+
+Dashboard -> Alerts, Home Status (option to display by room or by device type)
+
+How to Use this App
+
+Schedule -> Current Schedule, Edit Schedule
+
+Settings -> Add Device, Edit Device, Add Room, Edit Room
+
+Users -> Add User, Change Password
+
+
+Dashboard: 
+
+Alerts
+
+Home Status -> Handle display of all types with associated available data. Also add unknown category for future expansion to include devices not yet covered.
+
+
+
+

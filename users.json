@@ -1,0 +1,11 @@
+{
+    "users": [
+        {
+            "fName": "admin",
+            "lName": "admin",
+            "username": "admin",
+            "password": "admin",
+            "access": "admin"
+        }
+    ]
+}

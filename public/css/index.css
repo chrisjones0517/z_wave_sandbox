@@ -1,0 +1,163 @@
+:root {
+    --body-bg-wallpaper: url('../images/qbkls.png');
+    --main-bg-wallpaper: url('../images/webb-dark.png');
+}
+
+/* use mobile first development for this app */
+
+body {
+    background-image: var(--body-bg-wallpaper);
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    min-height: 100vh;
+}
+
+nav, footer {
+    background-image: var(--main-bg-wallpaper);
+}
+
+nav {
+    text-align: center;
+    height: 16rem;
+    overflow: hidden;
+}
+
+#logo {
+    width: 200px;
+    margin: 2rem auto;
+}
+
+#mobile-menu-trigger {
+    position: relative;
+    width: 50px;
+    height: 40px;
+    border: 2px solid #888888;
+    background-color: #000000;
+    border-radius: 5px;
+    margin: auto;
+    margin-bottom: 2rem;
+    cursor: pointer;
+}
+
+#menu-line-wrapper {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-left: -12.5px;
+    margin-top: -15px;
+}
+
+.menu-line {
+    width: 25px;
+    height: 2px;
+    background-color: #888888;
+    margin: 6px auto;
+}
+
+.logo-container {
+    display: flex;
+    flex-direction: column;
+}
+
+@keyframes navDown {
+    from {
+        height: 16rem;
+    }
+    to {
+        height: 30rem;
+    }
+}
+
+@keyframes navUp {
+    from {
+        height: 30rem;
+    }
+    to {
+        height: 16rem;
+    }
+}
+
+.nav-down {
+    animation: navDown;
+    animation-duration: 0.5s;
+    animation-fill-mode: forwards;
+}
+
+.nav-up {
+    animation: navUp;
+    animation-duration: 0.5s;
+    animation-fill-mode: reverse;
+}
+
+#link-list {
+    padding: 0;
+    margin: 0;
+}
+
+.link {
+    list-style: none;
+    cursor: pointer;
+    color: #888888;
+    margin-bottom: 1rem;
+}
+
+.link:hover, #mobile-menu:hover {
+    color: #bbbbbb;
+}
+
+.main {
+    text-align: center;
+}
+
+.error {
+    text-align: center;
+    margin: 2rem;
+    color: #ff0000;
+}
+
+.error-heading {
+    font-size: 2rem;
+}
+
+.active {
+    color: #ffffff;
+}
+
+/* ************************** login form styling ************** */
+
+form {
+    width: 75%;
+    margin: auto;
+}
+
+input, #submit {
+    border-radius: 5px;
+}
+
+input {
+    padding: 0;
+    margin-top: 0.5rem;
+    margin-bottom: 1rem;
+    width: 100%;
+    height: 2rem;
+    font-size: 1.5rem;
+}
+
+#submit {
+    width: 100%;
+    height: 2.5rem;
+    margin-top: 1.5rem;
+    font-size: 1.25rem;
+}
+
+.primary {
+    background-color: #007bff;
+    color: #ffffff;
+}
+
+.primary:hover {
+    background-color: #016de0;
+}
+
+/* ****************************************************** */

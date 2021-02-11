@@ -1,0 +1,19 @@
+{
+  "name": "z_wave_sandbox",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "express-sslify": "^1.2.0",
+    "jsonwebtoken": "^8.5.1",
+    "openzwave-shared": "^1.7.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Chris Jones <chrisjones0517@gmail.com>",
+  "license": "MIT"
+}
